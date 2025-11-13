@@ -1,200 +1,183 @@
 {
+  "last_updated": "2025-10",
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Yuanjun Feng",
+    "label": "Ph.D. Student in Information Systems",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Lausanne",
+      "country": "Switzerland"
     },
+    "email": "yuanjun.feng@unil.ch",
+    "phone": "+41 762645049",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "yuanjun-feng",
+        "url": "https://www.linkedin.com/in/yuanjun-feng/"
+      },
+      {
+        "network": "GitHub",
+        "username": "diana3135",
+        "url": "https://github.com/diana3135"
       }
+    ],
+    "research_interests": [
+      "Human–computer interaction",
+      "Computational social science",
+      "Generative AI"
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "HEC Lausanne, Université de Lausanne",
+      "studyType": "Ph.D.",
+      "area": "Information Systems",
+      "startDate": "2024",
+      "endDate": "2028",
+      "endDate_expected": true,
+      "advisor": {
+        "name": "Prof. Yash Raj Shrestha",
+        "url": "https://wp.unil.ch/aail/members/prof-yash-raj-shrestha/"
+      }
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
+      "studyType": "M.Sc.",
+      "area": "Management, Technology, and Entrepreneurship",
+      "minor": "Energy",
+      "startDate": "2020-09",
+      "endDate": "2023-09"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "institution": "Huazhong University of Science and Technology",
+      "studyType": "B.Eng.",
+      "area": "Energy and Power Engineering",
+      "startDate": "2016-09",
+      "endDate": "2020-06"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Huazhong University of Science and Technology",
+      "studyType": "B.Econ.",
+      "area": "Economics (Dual Degree)",
+      "startDate": "2016-09",
+      "endDate": "2020-06"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "title": "Noise, Adaptation, and Strategy: Assessing LLM Fidelity in Decision-Making",
+      "authors": ["Yuanjun Feng", "Vivek Choudhary", "Yash Raj Shrestha"],
+      "dateRange": { "start": "2025-01", "end": "2025-05" },
+      "venue": "EMNLP 2025",
+      "status": "Accepted",
+      "url": "https://aclanthology.org/2025.emnlp-main.391.pdf",
+      "highlights": [
+        "Designed LLM simulations for decision-making and identified limitations of synthetic data in social sciences."
+      ]
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "title": "The Effect of Education in Prompt Engineering: Evidence from Journalists",
+      "authors": ["Amirsiavosh Bashardoust*", "Yuanjun Feng*", "Dominique Geissler*", "Stefan Feuerriegel", "Yash Raj Shrestha"],
+      "equal_contribution_note": "* indicates equal contribution",
+      "dateRange": { "start": "2024-03", "end": "2024-09" },
+      "venue": "AAAI ICWSM 2026",
+      "status": "Accepted",
+      "url": "https://arxiv.org/abs/2409.12320",
+      "highlights": [
+        "Field experiment with 29 professional journalists on prompt-engineering training.",
+        "Training improved perceived expertise; mixed effects on output quality, engagement, and clarity depending on task complexity."
+      ]
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
+      "title": "Contextualizing Recommendation Explanations with LLMs: A User Study",
+      "authors": ["Yuanjun Feng", "Stefan Feuerriegel", "Yash Raj Shrestha"],
+      "dateRange": { "start": "2023-09", "end": "2024-07" },
+      "venue": "AAAI ICWSM 2026",
+      "status": "Accepted",
+      "url": "https://arxiv.org/abs/2501.12152",
+      "highlights": [
+        "Led a user study with 770 participants on LLM-generated explanations for movie recommendations.",
+        "Found significant effects on perceived quality, helpfulness, and consumption intent."
+      ]
+    },
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "title": "Gender Occupation Bias in Multilingual LLMs Under Contextualized Tasks",
+      "authors": ["Yuanjun Feng", "Tanzhou Liu", "Stefan Feuerriegel", "Yash Raj Shrestha"],
+      "dateRange": { "start": "2024-09", "end": null },
+      "venue": "AAAI 2026",
+      "status": "Submitted",
+      "url": null,
+      "highlights": [
+        "Cross-lingual bias analysis across English, French, German, and Chinese for explicit vs. implicit tasks.",
+        "Unified framework reveals systematic cultural and linguistic variations in occupational gender bias."
       ]
     }
   ],
-  "languages": [
+  "experience": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Legartis Technology AG",
+      "position": "Machine Learning Engineer Intern",
+      "location": "Zurich, Switzerland",
+      "startDate": "2022-07",
+      "endDate": "2023-03",
+      "highlights": [
+        "Optimized text-classification pipeline by integrating six monolingual classifiers in PyTorch; deployed models with ~83% reduction in training footprint.",
+        "Built report-generation feature using FastAPI within a Django-based workflow.",
+        "Led data ETL to enable a legal Q&A model."
+      ]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "name": "Z-PUNKT Consulting",
+      "position": "Business Analyst Intern",
+      "location": "Zurich, Switzerland",
+      "startDate": "2021-09",
+      "endDate": "2022-06",
+      "highlights": [
+        "Maintained MS365 collaboration platform to enhance team productivity and communication.",
+        "Developed automated workflows with Power Automate and interactive dashboards with Power BI."
       ]
     }
   ],
-  "references": [
+  "teaching": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "course": "Artificial Intelligence in Business",
+      "level": "BSc",
+      "institution": "Université de Lausanne (UNIL)",
+      "startDate": "2023",
+      "endDate": null,
+      "role": "Teaching Support",
+      "notes": "2023 – Present"
     }
   ],
-  "projects": [
+  "presentations": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "title": "AI Safety and Regulation Workshop",
+      "year": 2025,
+      "location": "Lausanne, Switzerland"
+    },
+    {
+      "title": "Pujiang Innovation Forum: AI & Ethics: Sino-Swiss Intercultural Dialogue.",
+      "year": 2024,
+      "location": "Shanghai, China"
+    }
+  ],
+  "service": [
+    {
+      "role": "Reviewer",
+      "venues": [
+        {
+          "name": "International Conference on Wirtschaftsinformatik",
+          "years": "2024–Present"
+        },
+        {
+          "name": "ACM CHI Conference on Human Factors in Computing Systems",
+          "years": "2024–Present"
+        },
+        {
+          "name": "The International AAAI Conference on Web and Social Media (ICWSM)",
+          "years": "2025–Present"
+        }
+      ]
     }
   ]
 }
