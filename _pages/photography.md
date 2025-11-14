@@ -9,16 +9,7 @@ images:
   photoswipe: true
 ---
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </header>
-
-  <article>
-    <div class="pswp-gallery pswp-gallery--single-column" id="gallery--photography">
+<div class="pswp-gallery pswp-gallery--single-column" id="gallery--photography">
       <!-- Add your photography images here -->
       <!-- Example format:
       <a href="assets/img/your-image-full.jpg"
@@ -137,7 +128,5 @@ images:
           </a>
         </div>
       </div>
-    </div>
-  </article>
 </div>
 

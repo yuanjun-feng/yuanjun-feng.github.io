@@ -8,4 +8,11 @@ cv_pdf: cv.pdf # you can also use external links here
 description:
 toc:
   sidebar: left
+cv_sections:
+  - basics
+  - education
+  - work
+  - publications
+  - presentations
+  - service
 ---
