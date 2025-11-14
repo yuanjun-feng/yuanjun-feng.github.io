@@ -35,7 +35,24 @@
             {% endif %}
           </h6>
           {% if content.authors %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.authors | join: ', ' }}</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {% for author in content.authors %}
+                {% assign author_parts = author | split: '**' %}
+                {% if author_parts.size > 1 %}
+                  {% for part in author_parts %}
+                    {% assign part_index = forloop.index0 | modulo: 2 %}
+                    {% if part_index == 1 %}
+                      <strong>{{ part }}</strong>
+                    {% else %}
+                      {{ part }}
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                  {{ author }}
+                {% endif %}
+                {% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </h6>
           {% endif %}
           {% if content.venue %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.venue }}</h6>

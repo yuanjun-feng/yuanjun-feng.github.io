@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /photography/
-title: Photography Gallery
+title: Photography
 description: A collection of my photography work
 nav: true
 nav_order: 4
@@ -10,121 +10,68 @@ images:
 ---
 
 <div class="pswp-gallery pswp-gallery--single-column" id="gallery--photography">
-      <!-- Add your photography images here -->
-      <!-- Example format:
-      <a href="assets/img/your-image-full.jpg"
-        data-pswp-width="width-in-pixels"
-        data-pswp-height="height-in-pixels"
-        target="_blank">
-        <img src="assets/img/your-image-thumb.jpg" alt="Description" />
-      </a>
-      -->
-      
-      <!-- You can organize images in rows using Bootstrap grid -->
+      <!-- Photography Gallery -->
       <div class="row mt-3">
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/1.jpg"
+          <a href="assets/img/photography/1000006947.JPG"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/1.jpg" alt="Photography 1" class="img-fluid rounded z-depth-1" />
+            <img src="assets/img/photography/1000006947.JPG" alt="Photography 1" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/2.jpg"
+          <a href="assets/img/photography/1000006952.JPG"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/2.jpg" alt="Photography 2" class="img-fluid rounded z-depth-1" />
+            <img src="assets/img/photography/1000006952.JPG" alt="Photography 2" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/3.jpg"
+          <a href="assets/img/photography/1000006979.JPG"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/3.jpg" alt="Photography 3" class="img-fluid rounded z-depth-1" />
+            <img src="assets/img/photography/1000006979.JPG" alt="Photography 3" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
       </div>
 
       <div class="row mt-3">
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/4.jpg"
+          <a href="assets/img/photography/1000011576.JPG"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/4.jpg" alt="Photography 4" class="img-fluid rounded z-depth-1" />
+            <img src="assets/img/photography/1000011576.JPG" alt="Photography 4" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/5.jpg"
+          <a href="assets/img/photography/1000011579.JPG"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/5.jpg" alt="Photography 5" class="img-fluid rounded z-depth-1" />
+            <img src="assets/img/photography/1000011579.JPG" alt="Photography 5" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/6.jpg"
+          <a href="assets/img/photography/1000015056.JPG"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/6.jpg" alt="Photography 6" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-      </div>
-
-      <div class="row mt-3">
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/7.jpg"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/7.jpg" alt="Photography 7" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/8.jpg"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/8.jpg" alt="Photography 8" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/9.jpg"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/9.jpg" alt="Photography 9" class="img-fluid rounded z-depth-1" />
+            <img src="assets/img/photography/1000015056.JPG" alt="Photography 6" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
       </div>
 
       <div class="row mt-3">
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/10.jpg"
+          <a href="assets/img/photography/1000022009.JPG"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/10.jpg" alt="Photography 10" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/11.jpg"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/11.jpg" alt="Photography 11" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/12.jpg"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/12.jpg" alt="Photography 12" class="img-fluid rounded z-depth-1" />
+            <img src="assets/img/photography/1000022009.JPG" alt="Photography 7" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
       </div>
