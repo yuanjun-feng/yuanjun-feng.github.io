@@ -58,7 +58,7 @@
     {
       "institution": "Huazhong University of Science and Technology",
       "studyType": "B.Econ.",
-      "area": "Economics (Dual Degree)",
+      "area": "Economics",
       "startDate": "2016-09",
       "endDate": "2020-06"
     }
@@ -74,7 +74,7 @@
     },
     {
       "title": "The Effect of Education in Prompt Engineering: Evidence from Journalists",
-      "authors": ["Amirsiavosh Bashardoust<sup>*</sup>", "**Yuanjun Feng**<sup>*</sup>", "Dominique Geissler<sup>*</sup>", "Stefan Feuerriegel", "Yash Raj Shrestha"],
+      "authors": ["Amirsiavosh Bashardoust<sup>*</sup>", "**Yuanjun Feng<sup>*</sup>**", "Dominique Geissler<sup>*</sup>", "Stefan Feuerriegel", "Yash Raj Shrestha"],
       "equal_contribution_note": "<sup>*</sup> indicates equal contribution",
       "dateRange": { "start": "2024-03", "end": "2024-09" },
       "venue": "AAAI ICWSM 2026 (CORE A)",

@@ -13,65 +13,65 @@ images:
       <!-- Photography Gallery -->
       <div class="row mt-3">
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/photography/1000006947.JPG"
+          <a href="{{ '/assets/img/photography/1000006947.JPG' | relative_url }}"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/photography/1000006947.JPG" alt="Photography 1" class="img-fluid rounded z-depth-1" />
+            <img src="{{ '/assets/img/photography/1000006947.JPG' | relative_url }}" alt="Photography 1" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/photography/1000006952.JPG"
+          <a href="{{ '/assets/img/photography/1000006952.JPG' | relative_url }}"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/photography/1000006952.JPG" alt="Photography 2" class="img-fluid rounded z-depth-1" />
+            <img src="{{ '/assets/img/photography/1000006952.JPG' | relative_url }}" alt="Photography 2" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/photography/1000006979.JPG"
+          <a href="{{ '/assets/img/photography/1000006979.JPG' | relative_url }}"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/photography/1000006979.JPG" alt="Photography 3" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-      </div>
-
-      <div class="row mt-3">
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/photography/1000011576.JPG"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/photography/1000011576.JPG" alt="Photography 4" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/photography/1000011579.JPG"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/photography/1000011579.JPG" alt="Photography 5" class="img-fluid rounded z-depth-1" />
-          </a>
-        </div>
-        <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/photography/1000015056.JPG"
-            data-pswp-width="2000"
-            data-pswp-height="1500"
-            target="_blank">
-            <img src="assets/img/photography/1000015056.JPG" alt="Photography 6" class="img-fluid rounded z-depth-1" />
+            <img src="{{ '/assets/img/photography/1000006979.JPG' | relative_url }}" alt="Photography 3" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
       </div>
 
       <div class="row mt-3">
         <div class="col-sm-4 mt-3 mt-md-0">
-          <a href="assets/img/photography/1000022009.JPG"
+          <a href="{{ '/assets/img/photography/1000011576.JPG' | relative_url }}"
             data-pswp-width="2000"
             data-pswp-height="1500"
             target="_blank">
-            <img src="assets/img/photography/1000022009.JPG" alt="Photography 7" class="img-fluid rounded z-depth-1" />
+            <img src="{{ '/assets/img/photography/1000011576.JPG' | relative_url }}" alt="Photography 4" class="img-fluid rounded z-depth-1" />
+          </a>
+        </div>
+        <div class="col-sm-4 mt-3 mt-md-0">
+          <a href="{{ '/assets/img/photography/1000011579.JPG' | relative_url }}"
+            data-pswp-width="2000"
+            data-pswp-height="1500"
+            target="_blank">
+            <img src="{{ '/assets/img/photography/1000011579.JPG' | relative_url }}" alt="Photography 5" class="img-fluid rounded z-depth-1" />
+          </a>
+        </div>
+        <div class="col-sm-4 mt-3 mt-md-0">
+          <a href="{{ '/assets/img/photography/1000015056.JPG' | relative_url }}"
+            data-pswp-width="2000"
+            data-pswp-height="1500"
+            target="_blank">
+            <img src="{{ '/assets/img/photography/1000015056.JPG' | relative_url }}" alt="Photography 6" class="img-fluid rounded z-depth-1" />
+          </a>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-sm-4 mt-3 mt-md-0">
+          <a href="{{ '/assets/img/photography/1000022009.JPG' | relative_url }}"
+            data-pswp-width="2000"
+            data-pswp-height="1500"
+            target="_blank">
+            <img src="{{ '/assets/img/photography/1000022009.JPG' | relative_url }}" alt="Photography 7" class="img-fluid rounded z-depth-1" />
           </a>
         </div>
       </div>
