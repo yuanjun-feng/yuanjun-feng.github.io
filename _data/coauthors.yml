@@ -1,34 +1,23 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"shrestha":
+  - firstname: ["Yash Raj", "Y. R.", "Yash"]
+    url: https://wp.unil.ch/aail/members/prof-yash-raj-shrestha/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"feuerriegel":
+  - firstname: ["Stefan"]
+    url: https://www.ise.uni-freiburg.de/people/stefan-feuerriegel
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"choudhary":
+  - firstname: ["Vivek"]
+    url: https://sites.google.com/view/vkchoudhary
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bashardoust":
+  - firstname: ["Amirsiavosh"]
+    url: https://wp.unil.ch/aail/research-assistant-position/members/amirsiavosh-bashardoust/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"geissler":
+  - firstname: ["Dominique"]
+    url: https://www.som.lmu.de/ai/de/institut/kontaktseite/dominique-geissler-d4ad3b68.html
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"liu":
+  - firstname: ["Tanzhou"]
+    url: https://www.linkedin.com/in/tanzhou-liu-62a847109/
