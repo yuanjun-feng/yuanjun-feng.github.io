@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Pass the candidate exam! 🎤
+🎤 Passed the Ph.D. candidacy exam!

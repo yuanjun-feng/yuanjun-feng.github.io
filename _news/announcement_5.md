@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One first-author paper got accepted at EMNLP 2025!
+One first-author paper accepted at EMNLP 2025!

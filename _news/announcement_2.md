@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-02-01
-inline: false
+date: 2023-10-01
+inline: true
 related_posts: false
 ---
 
-Join UNIL as a PhD Student! 🧑‍🎓
+🎓 Graduate from EPFL! Join UNIL as a PhD student!
