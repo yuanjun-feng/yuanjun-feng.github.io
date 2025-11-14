@@ -21,10 +21,10 @@
         "url": "https://github.com/diana3135"
       }
     ],
-    "research_interests": [
-      "Human–computer interaction",
-      "Computational social science",
-      "Generative AI"
+    "Research Interests": [
+      "Human–Computer Interaction (HCI)",
+      "Computational Social Science (CSS)",
+      "Natural Language Processing (NLP)"
     ]
   },
   "education": [
@@ -41,9 +41,9 @@
       }
     },
     {
-      "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
+      "institution": "École Polytechnique Fédérale de Lausanne",
       "studyType": "M.Sc.",
-      "area": "Management, Technology, and Entrepreneurship",
+      "area": "Management, Technology, and Entrepreneurship (Data Science)",
       "minor": "Energy",
       "startDate": "2020-09",
       "endDate": "2023-09"
@@ -70,10 +70,7 @@
       "dateRange": { "start": "2025-01", "end": "2025-05" },
       "venue": "EMNLP 2025",
       "status": "Accepted",
-      "url": "https://aclanthology.org/2025.emnlp-main.391.pdf",
-      "highlights": [
-        "Designed LLM simulations for decision-making and identified limitations of synthetic data in social sciences."
-      ]
+      "url": "https://aclanthology.org/2025.emnlp-main.391.pdf"
     },
     {
       "title": "The Effect of Education in Prompt Engineering: Evidence from Journalists",
@@ -82,11 +79,7 @@
       "dateRange": { "start": "2024-03", "end": "2024-09" },
       "venue": "AAAI ICWSM 2026",
       "status": "Accepted",
-      "url": "https://arxiv.org/abs/2409.12320",
-      "highlights": [
-        "Field experiment with 29 professional journalists on prompt-engineering training.",
-        "Training improved perceived expertise; mixed effects on output quality, engagement, and clarity depending on task complexity."
-      ]
+      "url": "https://arxiv.org/abs/2409.12320"
     },
     {
       "title": "Contextualizing Recommendation Explanations with LLMs: A User Study",
@@ -94,11 +87,7 @@
       "dateRange": { "start": "2023-09", "end": "2024-07" },
       "venue": "AAAI ICWSM 2026",
       "status": "Accepted",
-      "url": "https://arxiv.org/abs/2501.12152",
-      "highlights": [
-        "Led a user study with 770 participants on LLM-generated explanations for movie recommendations.",
-        "Found significant effects on perceived quality, helpfulness, and consumption intent."
-      ]
+      "url": "https://arxiv.org/abs/2501.12152"
     },
     {
       "title": "Gender Occupation Bias in Multilingual LLMs Under Contextualized Tasks",
@@ -106,14 +95,10 @@
       "dateRange": { "start": "2024-09", "end": null },
       "venue": "AAAI 2026",
       "status": "Submitted",
-      "url": null,
-      "highlights": [
-        "Cross-lingual bias analysis across English, French, German, and Chinese for explicit vs. implicit tasks.",
-        "Unified framework reveals systematic cultural and linguistic variations in occupational gender bias."
-      ]
+      "url": null
     }
   ],
-  "experience": [
+  "work": [
     {
       "name": "Legartis Technology AG",
       "position": "Machine Learning Engineer Intern",
@@ -145,7 +130,7 @@
       "institution": "Université de Lausanne (UNIL)",
       "startDate": "2023",
       "endDate": null,
-      "role": "Teaching Support",
+      "role": "Teaching Support & Lecturer",
       "notes": "2023 – Present"
     }
   ],

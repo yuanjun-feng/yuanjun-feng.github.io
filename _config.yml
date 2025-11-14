@@ -7,7 +7,7 @@ first_name: Yuanjun
 middle_name: (Diana)
 last_name: Feng
 contact_note: >
-  yuanjun.feng@unil.ch
+  
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
@@ -633,6 +633,9 @@ jsonresume:
   - work
   - education
   - publications
+  - teaching
+  - presentations
+  - service
   - projects
   - volunteer
   - awards
