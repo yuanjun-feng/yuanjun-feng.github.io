@@ -28,7 +28,7 @@ latest_posts:
 
 My name is Yuanjun (Diana) Feng, and I am a Ph.D. student in Information Systems at HEC Lausanne, University of Lausanne, supervised by [Prof. Yash Raj Shrestha](https://wp.unil.ch/aail/research-assistant-position/members/prof-yash-raj-shrestha/) in the Applied Artificial Intelligence Lab. My research sits at the intersection of human–computer interaction, computational social science, and natural language processing (NLP). I study how people use and perceive AI systems, and how these systems shape behavior, decision-making, and social dynamics across diverse contexts. 
 
-Before joining HEC Lausanne, I earned an M.Sc. in Management, Technology, and Entrepreneurship from EPFL, and dual degrees in Energy and Power Engineering (B.Eng.) and Economics (B.Econ.) from Huazhong University of Science and Technology. I also completed internships as a Machine Learning Engineer and Business Analyst in Zurich. 
+Before joining HEC Lausanne, I earned an M.Sc. in Management, Technology, and Entrepreneurship from EPFL, and dual degrees in Energy and Power Engineering (B.Eng.) and Economics (B.Econ.) from Huazhong University of Science and Technology. I also did internships as a Machine Learning Engineer and Business Analyst in Zurich. 
 
-Beyond research, I enjoy dancing 💃, running 🏃‍♀️, photography 📷, and table tennis 🏓.
+Beyond research, I enjoy dancing 💃, running 🏃‍♀️, photography 📷 (see [my photos](/photography/)), and table tennis 🏓.
 

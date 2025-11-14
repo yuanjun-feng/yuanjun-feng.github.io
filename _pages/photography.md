@@ -12,10 +12,10 @@ images:
 <div class="pswp-gallery pswp-gallery--single-column" id="gallery--photography">
   <!-- Photography Gallery -->
   
-  <!-- Row 1: 3 vertical photos -->
+  <!-- Row 1: 3 photos -->
   <div class="row mt-3">
     <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container vertical">
+      <div class="photo-container">
         <a href="{{ '/assets/img/photography/1000006947.JPG' | relative_url }}"
           data-pswp-width="3060"
           data-pswp-height="4080"
@@ -25,7 +25,7 @@ images:
       </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container vertical">
+      <div class="photo-container">
         <a href="{{ '/assets/img/photography/1000011576.JPG' | relative_url }}"
           data-pswp-width="3712"
           data-pswp-height="5568"
@@ -35,7 +35,7 @@ images:
       </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container vertical">
+      <div class="photo-container">
         <a href="{{ '/assets/img/photography/1000011579.JPG' | relative_url }}"
           data-pswp-width="3582"
           data-pswp-height="5373"
@@ -46,10 +46,10 @@ images:
     </div>
   </div>
 
-  <!-- Row 2: 2 vertical photos -->
+  <!-- Row 2: 3 photos -->
   <div class="row mt-3">
     <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container vertical">
+      <div class="photo-container">
         <a href="{{ '/assets/img/photography/1000015056.JPG' | relative_url }}"
           data-pswp-width="3072"
           data-pswp-height="4096"
@@ -59,7 +59,7 @@ images:
       </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container vertical">
+      <div class="photo-container">
         <a href="{{ '/assets/img/photography/1000022009.JPG' | relative_url }}"
           data-pswp-width="3712"
           data-pswp-height="5568"
@@ -68,12 +68,8 @@ images:
         </a>
       </div>
     </div>
-  </div>
-
-  <!-- Row 3: 2 horizontal photos -->
-  <div class="row mt-3">
-    <div class="col-sm-6 mt-3 mt-md-0">
-      <div class="photo-container horizontal">
+    <div class="col-sm-4 mt-3 mt-md-0">
+      <div class="photo-container">
         <a href="{{ '/assets/img/photography/1000006952.JPG' | relative_url }}"
           data-pswp-width="4080"
           data-pswp-height="3060"
@@ -82,13 +78,51 @@ images:
         </a>
       </div>
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-      <div class="photo-container horizontal">
+  </div>
+
+  <!-- Row 3: 3 photos -->
+  <div class="row mt-3">
+    <div class="col-sm-4 mt-3 mt-md-0">
+      <div class="photo-container">
         <a href="{{ '/assets/img/photography/1000006979.JPG' | relative_url }}"
           data-pswp-width="3866"
           data-pswp-height="2900"
           target="_blank">
           <img src="{{ '/assets/img/photography/1000006979.JPG' | relative_url }}" alt="Photography 3" class="img-fluid rounded z-depth-1" />
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+      <div class="photo-container">
+        <a href="{{ '/assets/img/photography/1000022002.JPG' | relative_url }}"
+          data-pswp-width="3712"
+          data-pswp-height="5568"
+          target="_blank">
+          <img src="{{ '/assets/img/photography/1000022002.JPG' | relative_url }}" alt="Photography 8" class="img-fluid rounded z-depth-1" />
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+      <div class="photo-container">
+        <a href="{{ '/assets/img/photography/1000032604.JPG' | relative_url }}"
+          data-pswp-width="3712"
+          data-pswp-height="5568"
+          target="_blank">
+          <img src="{{ '/assets/img/photography/1000032604.JPG' | relative_url }}" alt="Photography 9" class="img-fluid rounded z-depth-1" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 4: 1 photo -->
+  <div class="row mt-3">
+    <div class="col-sm-4 mt-3 mt-md-0">
+      <div class="photo-container">
+        <a href="{{ '/assets/img/photography/IMG_2024.JPG' | relative_url }}"
+          data-pswp-width="3712"
+          data-pswp-height="5568"
+          target="_blank">
+          <img src="{{ '/assets/img/photography/IMG_2024.JPG' | relative_url }}" alt="Photography 10" class="img-fluid rounded z-depth-1" />
         </a>
       </div>
     </div>
@@ -100,6 +134,7 @@ images:
   position: relative;
   display: block;
   width: 100%;
+  height: 500px;
   margin-bottom: 1rem;
   overflow: hidden;
   border-radius: 0.25rem;
@@ -121,74 +156,27 @@ images:
   transition: transform 0.3s ease;
 }
 
-/* Vertical photos - fixed height, all same size */
-.photo-container.vertical {
-  height: 500px;
-}
-
-/* Horizontal photos - fixed height, all same size */
-.photo-container.horizontal {
-  height: 400px;
-}
-
 .photo-container:hover img {
   transform: scale(1.05);
 }
 
 /* Responsive adjustments */
 @media (max-width: 576px) {
-  .photo-container.vertical {
+  .photo-container {
     height: 400px;
-  }
-  .photo-container.horizontal {
-    height: 300px;
   }
 }
 
 @media (min-width: 768px) {
-  .photo-container.vertical {
+  .photo-container {
     height: 550px;
-  }
-  .photo-container.horizontal {
-    height: 450px;
   }
 }
 
 @media (min-width: 992px) {
-  .photo-container.vertical {
+  .photo-container {
     height: 600px;
-  }
-  .photo-container.horizontal {
-    height: 500px;
   }
 }
 </style>
 
-<script>
-(function() {
-  // Ensure orientation classes are applied (backup in case CSS doesn't load)
-  function ensureOrientation() {
-    const verticalContainers = document.querySelectorAll('.photo-container.vertical');
-    const horizontalContainers = document.querySelectorAll('.photo-container.horizontal');
-    
-    verticalContainers.forEach(container => {
-      if (!container.classList.contains('vertical')) {
-        container.classList.add('vertical');
-      }
-    });
-    
-    horizontalContainers.forEach(container => {
-      if (!container.classList.contains('horizontal')) {
-        container.classList.add('horizontal');
-      }
-    });
-  }
-  
-  // Run when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', ensureOrientation);
-  } else {
-    ensureOrientation();
-  }
-})();
-</script>
