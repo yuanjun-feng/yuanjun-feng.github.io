@@ -113,20 +113,6 @@ images:
       </div>
     </div>
   </div>
-
-  <!-- Row 4: 1 photo -->
-  <div class="row mt-3">
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/IMG_2024.JPG' | relative_url }}"
-          data-pswp-width="3712"
-          data-pswp-height="5568"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/IMG_2024.JPG' | relative_url }}" alt="Photography 10" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-  </div>
 </div>
 
 <style>
