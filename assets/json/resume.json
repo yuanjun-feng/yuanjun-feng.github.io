@@ -106,7 +106,7 @@
       "startDate": "2022-07",
       "endDate": "2023-03",
       "highlights": [
-        "Optimized text-classification pipeline by integrating six monolingual classifiers in PyTorch; deployed models with ~83% reduction in training footprint.",
+        "Optimized text-classification pipeline by integrating six monolingual classifiers in PyTorch.","Deployed models with 83% reduction in training footprint.",
         "Built report-generation feature using FastAPI within a Django-based workflow.",
         "Led data ETL to enable a legal Q&A model."
       ]
@@ -141,7 +141,7 @@
       "location": "Lausanne, Switzerland"
     },
     {
-      "title": "Pujiang Innovation Forum: AI & Ethics: Sino-Swiss Intercultural Dialogue.",
+      "title": "Pujiang Innovation Forum - AI & Ethics: Sino-Swiss Intercultural Dialogue",
       "year": 2024,
       "location": "Shanghai, China"
     }
