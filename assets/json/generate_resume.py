@@ -33,7 +33,7 @@ resume_data = {
         ],
         "Research Interests": [
             "LLM/AI Agents",
-            "Human-Centered NLP",
+            "Human-Centered Model Evaluation",
             "Computational Social Science"
         ]
     },
