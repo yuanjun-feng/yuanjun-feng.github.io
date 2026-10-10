@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-11-27
+date: 2026-03-24
 inline: true
 related_posts: false
 ---
-Attend the Foundation Models (FoMo) Winter School 2026 in Amsterdam 🇳🇱
+Attended the [Foundation Models (FoMo) Winter School 2026](https://elias-ai.eu/event/fomo-2026/) in Amsterdam (24–27 March) 🇳🇱

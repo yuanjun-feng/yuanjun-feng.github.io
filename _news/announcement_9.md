@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 A master's thesis we supervised got accepted at HEAL@CHI'26!
+🎉 A master's thesis we supervised was accepted at [HEAL@CHI'26](https://heal-workshop.github.io/): “When Your Boss is an AI: Identity Label Bias in LLM Task Allocation Decisions”.
