@@ -1,168 +1,31 @@
 ---
-layout: page
+layout: folio-page
 permalink: /photography/
 title: Photography
-description: A collection of my photography work
+eyebrow: A different kind of observation
+description: Small moments, shifting light, and places along the way. Photographs by Yuanjun Feng.
 nav: true
 nav_order: 4
-images:
-  photoswipe: true
 ---
 
-<div class="pswp-gallery pswp-gallery--single-column" id="gallery--photography">
-  <!-- Photography Gallery -->
-  
-  <!-- Row 1: 3 photos -->
-  <div class="row mt-3">
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000006947.JPG' | relative_url }}"
-          data-pswp-width="3060"
-          data-pswp-height="4080"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000006947.JPG' | relative_url }}" alt="Photography 1" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000011576.JPG' | relative_url }}"
-          data-pswp-width="3712"
-          data-pswp-height="5568"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000011576.JPG' | relative_url }}" alt="Photography 4" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000011579.JPG' | relative_url }}"
-          data-pswp-width="3582"
-          data-pswp-height="5373"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000011579.JPG' | relative_url }}" alt="Photography 5" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Row 2: 3 photos -->
-  <div class="row mt-3">
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000015056.JPG' | relative_url }}"
-          data-pswp-width="3072"
-          data-pswp-height="4096"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000015056.JPG' | relative_url }}" alt="Photography 6" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000022009.JPG' | relative_url }}"
-          data-pswp-width="3712"
-          data-pswp-height="5568"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000022009.JPG' | relative_url }}" alt="Photography 7" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000006952.JPG' | relative_url }}"
-          data-pswp-width="4080"
-          data-pswp-height="3060"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000006952.JPG' | relative_url }}" alt="Photography 2" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Row 3: 3 photos -->
-  <div class="row mt-3">
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000006979.JPG' | relative_url }}"
-          data-pswp-width="3866"
-          data-pswp-height="2900"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000006979.JPG' | relative_url }}" alt="Photography 3" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000022002.JPG' | relative_url }}"
-          data-pswp-width="3712"
-          data-pswp-height="5568"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000022002.JPG' | relative_url }}" alt="Photography 8" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <div class="photo-container">
-        <a href="{{ '/assets/img/photography/1000032604.JPG' | relative_url }}"
-          data-pswp-width="3712"
-          data-pswp-height="5568"
-          target="_blank">
-          <img src="{{ '/assets/img/photography/1000032604.JPG' | relative_url }}" alt="Photography 9" class="img-fluid rounded z-depth-1" />
-        </a>
-      </div>
-    </div>
-  </div>
+<div class="photo-grid">
+  {% for photo in site.data.photographs %}
+    {% assign image_path = photo.file | prepend: '/assets/img/photography/' %}
+    {% assign image_stem = photo.file | split: '.' | first | prepend: '/assets/img/photography/' %}
+    <figure>
+      <a href="{{ image_path | relative_url }}" aria-label="Open photograph {{ forloop.index }} at full size">
+        <picture>
+          {% if site.imagemagick.enabled %}
+            <source type="image/webp"
+              srcset="{{ image_stem | append: '-480.webp' | relative_url }} 480w, {{ image_stem | append: '-800.webp' | relative_url }} 800w, {{ image_stem | append: '-1400.webp' | relative_url }} 1400w"
+              sizes="(max-width: 380px) 90vw, (max-width: 680px) 45vw, 340px">
+          {% endif %}
+          <img src="{{ image_path | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
+        </picture>
+      </a>
+      <figcaption lang="zh-Hans">
+        <span class="photo-title">{{ photo.title }}</span>
+      </figcaption>
+    </figure>
+  {% endfor %}
 </div>
-
-<style>
-.photo-container {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 500px;
-  margin-bottom: 1rem;
-  overflow: hidden;
-  border-radius: 0.25rem;
-}
-
-.photo-container a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.photo-container img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease;
-}
-
-.photo-container:hover img {
-  transform: scale(1.05);
-}
-
-/* Responsive adjustments */
-@media (max-width: 576px) {
-  .photo-container {
-    height: 400px;
-  }
-}
-
-@media (min-width: 768px) {
-  .photo-container {
-    height: 550px;
-  }
-}
-
-@media (min-width: 992px) {
-  .photo-container {
-    height: 600px;
-  }
-}
-</style>
-

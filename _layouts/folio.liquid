@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% unless page.permalink == '/' %}{{ page.title | escape }} · {% endunless %}Yuanjun Feng</title>
+  {% assign description = page.description | default: site.description | strip %}
+  <meta name="description" content="{{ description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }} · Yuanjun Feng">
+  <meta property="og:description" content="{{ description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/ink-profile.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | escape }} · Yuanjun Feng">
+  <meta name="twitter:description" content="{{ description | escape }}">
+  <meta name="twitter:image" content="{{ '/assets/img/ink-profile.png' | absolute_url }}">
+  <meta name="theme-color" content="#f7f5ef">
+  <link rel="stylesheet" href="{{ '/assets/css/folio.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Yuanjun Feng, home">yf<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/selected-work/' | relative_url }}" {% if page.permalink == '/selected-work/' %}aria-current="page"{% endif %}>Selected Work</a>
+      <a href="{{ '/news/' | relative_url }}" {% if page.permalink == '/news/' %}aria-current="page"{% endif %}>News</a>
+      <a href="{{ '/photography/' | relative_url }}" {% if page.permalink == '/photography/' %}aria-current="page"{% endif %}>Photography</a>
+      <a href="{{ '/cv/' | relative_url }}" {% if page.permalink == '/cv/' %}aria-current="page"{% endif %}>CV <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">{{ content }}</main>
+  <footer class="site-footer wrap">
+    <div><a class="footer-name" href="{{ '/' | relative_url }}">Yuanjun Feng</a><p>Research, people, and everything in between.</p></div>
+    <div class="footer-links"><a href="mailto:{{ site.data.socials.email }}">Email</a><a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&amp;hl=en">Scholar</a><a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/">LinkedIn</a><span>© {{ site.time | date: '%Y' }}</span></div>
+  </footer>
+</body>
+</html>

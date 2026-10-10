@@ -1,0 +1,58 @@
+[
+  {
+    "dates": "Sep 2016 – Jun 2020",
+    "kind": "Education",
+    "institution": "Huazhong University of Science and Technology",
+    "short_name": "HUST",
+    "role": "B.Eng. in Energy and Power Engineering",
+    "note": "B.Econ. in Economics · Dual degree"
+  },
+  {
+    "dates": "Dec 2019 – Apr 2020",
+    "kind": "Industry",
+    "institution": "Schneider Electric",
+    "role": "Marketing Project Intern",
+    "note": ""
+  },
+  {
+    "dates": "Sep 2020 – Oct 2023",
+    "kind": "Education",
+    "institution": "EPFL",
+    "role": "M.Sc. in Management, Technology, and Entrepreneurship",
+    "note": "Minor in Energy"
+  },
+  {
+    "dates": "Sep 2021 – Jun 2022",
+    "kind": "Industry",
+    "institution": "Z-PUNKT",
+    "role": "Business Analyst Intern"
+  },
+  {
+    "dates": "2022 – 2023",
+    "kind": "Education",
+    "institution": "ETH Zurich",
+    "role": "Exchange Student"
+  },
+  {
+    "dates": "Jul 2022 – Mar 2023",
+    "kind": "Industry",
+    "institution": "Legartis Technology AG",
+    "short_name": "Legartis",
+    "role": "Machine Learning Engineer Intern"
+  },
+  {
+    "dates": "Feb 2024 – Present",
+    "kind": "Research",
+    "institution": "HEC Lausanne",
+    "role": "Doctorate student in Information Systems",
+    "note": "Applied Artificial Intelligence Lab",
+    "current": true
+  },
+  {
+    "dates": "Aug 2025",
+    "kind": "Research",
+    "institution": "INSEAD",
+    "role": "Visiting Scholar",
+    "note": "Host by Prof. Phanish Puranam"
+  }
+]

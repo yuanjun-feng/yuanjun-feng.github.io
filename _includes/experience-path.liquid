@@ -1,0 +1,20 @@
+<p class="experience-scroll-hint">Scroll to follow the path <span aria-hidden="true">→</span></p>
+<div class="experience-scroll" role="region" aria-labelledby="experience-title" tabindex="0">
+<ol class="experience-path" role="list" style="--experience-count: {{ site.data.experience.size }}" aria-label="Education, research, and industry experience in chronological order">
+  {% for step in site.data.experience %}
+    <li class="experience-step {% if step.kind == 'Industry' %}is-industry{% else %}is-academic{% endif %}{% if step.current %} is-current{% endif %}">
+      <div class="experience-date">
+        <span>{{ step.dates | escape }}</span>
+        {% if step.current %}<span class="experience-current">Ongoing</span>{% endif %}
+      </div>
+      <span class="experience-node" aria-hidden="true"></span>
+      <div class="experience-detail">
+        {% if step.kind %}<p class="experience-kind">{{ step.kind | escape }}</p>{% endif %}
+        <h3>{% if step.short_name %}<abbr title="{{ step.institution | escape }}">{{ step.short_name | escape }}</abbr>{% else %}{{ step.institution | escape }}{% endif %}</h3>
+        {% if step.role %}<p class="experience-role">{{ step.role | escape }}</p>{% endif %}
+        {% if step.note %}<p class="experience-note">{{ step.note | escape }}</p>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ol>
+</div>

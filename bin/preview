@@ -1,0 +1,23 @@
+#!/bin/sh
+# Local preview only. No commit, push, or deployment commands.
+set -eu
+cd "$(dirname "$0")/.."
+export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
+preview_config="$(mktemp -t yuanjun-preview).yml"
+trap 'rm -f "$preview_config"' EXIT
+if command -v convert >/dev/null 2>&1; then
+  printf '{}\n' > "$preview_config"
+else
+  printf 'imagemagick:\n  enabled: false\n' > "$preview_config"
+fi
+if bundle check >/dev/null 2>&1; then
+  bundle exec jekyll serve --config "_config.yml,$preview_config" --host 127.0.0.1 --port "${PORT:-4000}" "$@"
+else
+  # The existing macOS Ruby 2.6 cache is kept separate from production's lockfile.
+  export GEM_HOME="$PWD/vendor/bundle/ruby/2.6.0"
+  export JEKYLL_NO_BUNDLER_REQUIRE=true RUBYOPT=-rlogger
+  for plugin_lib in "$GEM_HOME"/bundler/gems/jekyll-terser-*/lib; do
+    export RUBYLIB="$plugin_lib${RUBYLIB:+:$RUBYLIB}"
+  done
+  ruby "$GEM_HOME/bin/jekyll" serve --config "_config.yml,$preview_config" --host 127.0.0.1 --port "${PORT:-4000}" "$@"
+fi

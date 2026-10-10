@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yuanjun (Diana) Feng # the website title (if blank, full name will be used instead)
+title: Yuanjun Feng # the website title (if blank, full name will be used instead)
 first_name: Yuanjun
-middle_name: (Diana)
+middle_name:
 last_name: Feng
 contact_note: >
   
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  
+description: >
+  Yuanjun Feng is a Ph.D. student at HEC Lausanne studying LLM and AI agents, human-centered model evaluation, and computational social science.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -121,13 +121,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -190,6 +184,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - venv
 keep_files:
   - CNAME
   - .nojekyll

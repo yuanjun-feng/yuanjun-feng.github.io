@@ -1,20 +1,9 @@
 ---
-layout: page
+layout: folio-page
 permalink: /publications/
-title: Publications
-description: 
-nav: true
-nav_order: 2
+title: Selected Work
+description: Studies of AI behavior, human–AI collaboration, and the social contexts that shape both.
+sitemap: false
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+{% include selected-work.liquid %}

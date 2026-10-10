@@ -1,0 +1,9 @@
+---
+layout: folio
+---
+<header class="page-heading">
+  <p class="eyebrow">{{ page.eyebrow | default: 'Yuanjun Feng' }}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="page-intro">{{ page.description }}</p>{% endif %}
+</header>
+{{ content }}

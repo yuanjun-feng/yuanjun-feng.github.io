@@ -1,7 +1,9 @@
 ---
-layout: page
-title: news
+layout: folio-page
+title: News
+eyebrow: Along the way
+description: Research updates, talks, and moments from academic life.
 permalink: /news/
 ---
 
-{% include news.liquid %}
+{% include folio-news.liquid %}

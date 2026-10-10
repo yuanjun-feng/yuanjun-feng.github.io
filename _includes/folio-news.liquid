@@ -1,0 +1,6 @@
+<ol class="news-list">
+  {% assign news_items = site.news | sort: 'date' | reverse %}
+  {% for item in news_items %}
+    <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><div>{% if item.inline %}{{ item.content }}{% else %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}</div></li>
+  {% endfor %}
+</ol>
