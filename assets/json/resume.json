@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10",
+  "last_updated": "2026-10",
   "basics": {
     "name": "Yuanjun Feng",
     "status": "Ph.D. Student in Information Systems",
@@ -32,21 +32,21 @@
       "institution": "HEC Lausanne, Université de Lausanne",
       "studyType": "Ph.D.",
       "area": "Information Systems",
-      "startDate": "2024",
-      "endDate": "2028",
+      "startDate": "2024-02",
+      "endDate": "2027-02",
       "endDate_expected": true,
       "advisor": {
         "name": "Prof. Yash Raj Shrestha",
-        "url": "https://wp.unil.ch/aail/members/prof-yash-raj-shrestha/"
+        "url": "https://wp.unil.ch/aail/team/yash/"
       }
     },
     {
       "institution": "École Polytechnique Fédérale de Lausanne",
       "studyType": "M.Sc.",
-      "area": "Management, Technology, and Entrepreneurship (Data Science)",
+      "area": "Management, Technology, and Entrepreneurship",
       "minor": "Energy",
       "startDate": "2020-09",
-      "endDate": "2023-09"
+      "endDate": "2023-10"
     },
     {
       "institution": "Huazhong University of Science and Technology",
@@ -76,8 +76,8 @@
         "end": "2025-05"
       },
       "venue": "EMNLP 2025 (CORE A<sup>*</sup>)",
-      "status": "Accepted",
-      "url": "https://aclanthology.org/2025.emnlp-main.391.pdf"
+      "status": "Published",
+      "url": "https://aclanthology.org/2025.emnlp-main.391/"
     },
     {
       "title": "The Effect of Education in Prompt Engineering: Evidence from Journalists",
@@ -94,8 +94,8 @@
         "end": "2024-09"
       },
       "venue": "AAAI ICWSM 2026 (CORE A)",
-      "status": "Accepted",
-      "url": "https://arxiv.org/abs/2409.12320"
+      "status": "Published",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/42634"
     },
     {
       "title": "Contextualizing Recommendation Explanations with LLMs: A User Study",
@@ -109,8 +109,37 @@
         "end": "2024-07"
       },
       "venue": "AAAI ICWSM 2026 (CORE A)",
-      "status": "Accepted",
-      "url": "https://arxiv.org/abs/2501.12152"
+      "status": "Published",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/42667"
+    },
+    {
+      "title": "Cognitive Homophily in Human-AI Ensembles: Explaining the Quality-Satisfaction Trade-off",
+      "authors": [
+        "**Yuanjun Feng**",
+        "Vivek Choudhary",
+        "Arianna Marchetti",
+        "Ella Miron-Spektor",
+        "Phanish Puranam",
+        "Yash Raj Shrestha",
+        "Nety Wu"
+      ],
+      "year": 2026,
+      "venue": "SSRN",
+      "status": "Preprint; under review at PNAS Nexus",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6924659"
+    },
+    {
+      "title": "Beyond Surface Cues: Disentangling Sociocultural Signals in Multilingual LLMs",
+      "authors": [
+        "**Yuanjun Feng**",
+        "Tanzhou Liu",
+        "Stefan Feuerriegel",
+        "Yash Raj Shrestha"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "url": "https://arxiv.org/abs/2608.23026"
     }
   ],
   "work": [
@@ -145,15 +174,16 @@
       "level": "BSc",
       "institution": "Université de Lausanne",
       "startDate": "2023",
-      "role": "Teaching Support & Lecturer",
+      "role": "Teaching Assistant",
       "notes": "2023 – Present"
     }
   ],
   "presentations": [
     {
-      "title": "AI Safety and Regulation Workshop",
+      "title": "AI Usage and Regulation Workshop",
       "year": 2025,
-      "location": "Lausanne, Switzerland"
+      "location": "Lausanne, Switzerland",
+      "url": "https://wp.unil.ch/aail/ai-usage-and-regulation-workshop/"
     },
     {
       "title": "Pujiang Innovation Forum - AI & Ethics: Sino-Swiss Intercultural Dialogue",
@@ -176,6 +206,10 @@
         {
           "name": "The International AAAI Conference on Web and Social Media (ICWSM)",
           "years": "2025–Present"
+        },
+        {
+          "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)",
+          "years": "2026–Present"
         }
       ]
     }

@@ -1,5 +1,6 @@
 ---
 layout: post
+title: AI Usage and Regulation Workshop
 date: 2025-06-10
 inline: true
 related_posts: false

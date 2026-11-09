@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Two papers accepted at ICWSM 2026
 date: 2025-07-15
 inline: true
 related_posts: false
