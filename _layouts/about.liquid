@@ -3,9 +3,9 @@ layout: folio
 ---
 <section class="hero" aria-labelledby="intro-title">
   <div class="hero-copy">
-    <h1 id="intro-title">Yuanjun<br>Feng</h1>
-    <p class="hero-statement"><span>Social Simulation</span> · <span>Model Evaluation</span> · <span>Human-centered AI</span></p>
-    <p class="hero-role">Doctoral researcher in Information Systems, HEC Lausanne</p>
+    <h1 id="intro-title">Yuanjun<br><span class="hero-name-line">Feng <span class="hero-name-zh" lang="zh-Hans">冯沅君</span></span></h1>
+    <p class="hero-statement"><span>Social Simulation</span> · <span>Model Evaluation</span></p>
+    <p class="hero-role">PhD student at HEC Lausanne</p>
     <div class="contact-links">
       <a href="mailto:{{ site.data.socials.email }}">Email <span aria-hidden="true">↗</span></a>
       <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
@@ -17,6 +17,13 @@ layout: folio
     <img src="{{ '/assets/img/ink-profile.png' | relative_url }}" width="1303" height="1207" alt="Watercolor and ink portrait of Yuanjun Feng wearing a straw hat" fetchpriority="high">
     <figcaption>你好 · Hi · Bonjour</figcaption>
   </figure>
+  <aside class="hero-news" id="news" aria-labelledby="news-title">
+    <div class="hero-news-heading">
+      <h2 id="news-title">News <em>&amp; notes.</em></h2>
+      <a class="text-link" href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">↗</span></a>
+    </div>
+    {% include folio-news.liquid limit=5 %}
+  </aside>
 </section>
 <section class="section experience-section" id="experience" aria-labelledby="experience-title">
   <div class="section-top">
@@ -29,9 +36,9 @@ layout: folio
   <div class="section-top"><div><p class="section-number">02 / RESEARCH</p><h2 id="work-title">Selected Work</h2></div><a class="text-link" href="{{ '/selected-work/' | relative_url }}">Explore the work <span aria-hidden="true">↗</span></a></div>
   {% include selected-work.liquid %}
 </section>
-<section class="section news-section" id="news" aria-labelledby="news-title">
-  <div class="section-label"><span class="section-number">03 / UPDATES</span><h2 id="news-title">News &amp;<br><em>notes.</em></h2></div>
-  {% include folio-news.liquid %}
+<section class="section blog-section" id="blog" aria-labelledby="blog-title">
+  <div class="section-top"><div><p class="section-number">03 / WRITING</p><h2 id="blog-title">From the <em>blog.</em></h2></div><a class="text-link" href="{{ '/blog/' | relative_url }}">All posts <span aria-hidden="true">↗</span></a></div>
+  {% include folio-posts.liquid limit=1 heading='h3' %}
 </section>
 <aside class="off-duty">
   <p class="eyebrow">Beyond the screen</p>

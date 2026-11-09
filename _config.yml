@@ -85,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Blog
+blog_description: Notes on research, AI, and the human experience.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -167,7 +167,6 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   # Unused theme examples are not part of the public personal website.
-  - _pages/blog.md
   - _pages/books.md
   - _pages/dropdown.md
   - _pages/profiles.md
@@ -175,22 +174,17 @@ exclude:
   - _pages/repositories.md
   - _pages/teaching.md
   - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - vendor
   - venv
 keep_files:
