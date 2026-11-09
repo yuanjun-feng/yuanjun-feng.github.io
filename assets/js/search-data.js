@@ -16,9 +16,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/selected-work/";
           },
+        },{id: "nav-blog",
+          title: "Blog",
+          description: "Notes on research, AI, and the human experience.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-photography",
           title: "Photography",
-          description: "Small moments, shifting light, and places along the way. Photographs by Yuanjun Feng.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/photography/";
@@ -30,11 +37,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-join-unil-as-a-phd-student",
-          title: 'Join UNIL as a PhD student!',
+        },{id: "post-beyond-human-likeness-preserving-the-human-trace",
+        
+          title: "Beyond Human Likeness: Preserving the Human Trace",
+        
+        description: "Reflections on human studies, AI simulation, and preserving the encounters behind our data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/preserving-the-human-trace/";
+          
+        },
+      },{id: "news-joined-unil-as-a-ph-d-student",
+          title: 'Joined UNIL as a Ph.D. student!',
           description: "",
-          section: "News",},{id: "news-attend-pujiang-innovation-forum-in-shanghai-️",
-          title: 'Attend Pujiang Innovation Forum in Shanghai 🏙️',
+          section: "News",},{id: "news-attended-the-pujiang-innovation-forum-in-shanghai-️",
+          title: 'Attended the Pujiang Innovation Forum in Shanghai 🏙️',
           description: "",
           section: "News",},{id: "news-passed-the-candidacy-exam",
           title: 'Passed the candidacy exam!',
@@ -48,11 +66,11 @@ ninja.data = [{
           section: "News",},{id: "news-one-first-author-paper-accepted-at-emnlp-2025",
           title: '🎉 One first-author paper accepted at EMNLP 2025!',
           description: "",
-          section: "News",},{id: "news-present-our-work-at-emnlp-2025-in-suzhou",
-          title: 'Present our work at EMNLP 2025 in Suzhou 🪭',
+          section: "News",},{id: "news-presented-our-work-at-emnlp-2025-in-suzhou",
+          title: 'Presented our work at EMNLP 2025 in Suzhou 🪭',
           description: "",
-          section: "News",},{id: "news-our-work-in-spotlight-at-ntu-news",
-          title: 'Our work in spotlight at NTU News 🇸🇬📰',
+          section: "News",},{id: "news-our-work-was-featured-in-ntu-news",
+          title: 'Our work was featured in NTU News 🇸🇬📰',
           description: "",
           section: "News",},{id: "news-attended-the-foundation-models-fomo-winter-school-2026-in-amsterdam-24-27-march",
           title: 'Attended the Foundation Models (FoMo) Winter School 2026 in Amsterdam (24–27 March) 🇳🇱...',
