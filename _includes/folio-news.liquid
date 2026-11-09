@@ -1,6 +1,7 @@
 <ol class="news-list">
   {% assign news_items = site.news | sort: 'date' | reverse %}
-  {% for item in news_items %}
+  {% assign news_limit = include.limit | default: news_items.size %}
+  {% for item in news_items limit: news_limit %}
     <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><div>{% if item.inline %}{{ item.content }}{% else %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}</div></li>
   {% endfor %}
 </ol>

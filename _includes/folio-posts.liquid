@@ -1,0 +1,19 @@
+<ol class="blog-list">
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% if paginator.posts %}{% assign posts = paginator.posts %}{% endif %}
+  {% assign post_limit = include.limit | default: posts.size %}
+  {% assign post_heading = include.heading | default: 'h2' %}
+  {% for post in posts limit: post_limit %}
+    {% assign read_time = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+    <li>
+      <article class="blog-entry">
+        <div class="blog-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %-d, %Y' }}</time><span>{{ read_time }} min read</span></div>
+        <div class="blog-entry-copy">
+          <{{ post_heading }}><a href="{{ post.url | relative_url }}">{{ post.title }} <span class="work-arrow" aria-hidden="true">↗</span></a></{{ post_heading }}>
+          <p>{{ post.description }}</p>
+          <a class="text-link" href="{{ post.url | relative_url }}">Read the essay <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </li>
+  {% endfor %}
+</ol>

@@ -1,0 +1,21 @@
+---
+layout: folio
+---
+<article class="blog-post" lang="{{ page.lang | default: 'en' }}">
+  <header class="page-heading blog-post-heading">
+    <a class="text-link" href="{{ '/blog/' | relative_url }}"><span aria-hidden="true">←</span> {% if page.lang == 'zh-CN' %}返回博客{% else %}Back to blog{% endif %}</a>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="blog-post-meta">{{ page.author | default: 'Yuanjun Feng' }} <span aria-hidden="true">·</span> <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{% if page.lang == 'zh-CN' %}{{ page.date | date: '%Y年%-m月%-d日' }}{% else %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}</time> <span aria-hidden="true">·</span> {% if page.lang == 'zh-CN' %}约 {{ content | strip_html | number_of_words: 'auto' | divided_by: 400 | plus: 1 }} 分钟阅读{% else %}{{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read{% endif %}</p>
+  </header>
+  {% if page.translation_url %}
+    <aside class="language-note" aria-label="{% if page.lang == 'zh-CN' %}文章语言{% else %}Article language{% endif %}">
+      {% if page.lang == 'zh-CN' %}
+        <p>这篇文章最初用中文起草。这里是中文版，也欢迎阅读 <a href="{{ page.translation_url | relative_url }}" hreflang="en" lang="en">English version <span aria-hidden="true">→</span></a>。</p>
+      {% else %}
+        <p>I first drafted this essay in Chinese. If you're curious about how it reads in the original, you're welcome to <a href="{{ page.translation_url | relative_url }}" hreflang="zh-CN">read the Chinese version <span lang="zh-CN">（中文版）</span> <span aria-hidden="true">→</span></a>.</p>
+      {% endif %}
+    </aside>
+  {% endif %}
+  <div class="blog-prose">{{ content }}</div>
+  <p class="blog-post-back"><a class="text-link" href="{{ '/blog/' | relative_url }}"><span aria-hidden="true">←</span> {% if page.lang == 'zh-CN' %}全部文章{% else %}All posts{% endif %}</a></p>
+</article>

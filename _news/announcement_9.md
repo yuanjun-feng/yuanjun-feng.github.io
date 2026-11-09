@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Master’s thesis accepted at HEAL@CHI 2026
 date: 2026-04-15
 inline: true
 related_posts: false
